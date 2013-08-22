@@ -1,6 +1,6 @@
 What is it?
 -------------
-This is Observatory v0.2.1 - a [Meteorite](https://github.com/oortcloud/meteorite) package that provides powerful, efficient
+This is Observatory v0.2.53 - a [Meteorite](https://github.com/oortcloud/meteorite) package that provides powerful, efficient
 and pretty logging and monitoring for [Meteor framework](http://meteor.com) application development.
 [See it in action!](http://observatoryjs.com/).
 
@@ -28,6 +28,7 @@ Installation
 
 Usage
 ---------
+
 Somewhere in the common code of your meteor app call:
 ```coffeescript
 logger = TLog.getLogger()
@@ -139,6 +140,9 @@ to share your thoughts and ideas!
 
 Revision history
 -----------------
+####0.2.53: August, 19, 2013
+* Updated to work with Meteor 0.6.5
+
 ####0.2.1: March 25, 2013
 * Added http requests logging via connect middleware hook
 * Changed UI behavior so that Observatory modifies last child of &lt;body&gt; to be able to scroll main site content up
